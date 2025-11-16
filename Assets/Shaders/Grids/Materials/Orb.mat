@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1933238750133261275
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 11
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Orb
+  m_Shader: {fileID: -6465566751694194690, guid: 25096cc823012c14e846190de786a755,
+    type: 3}
+  m_Parent: {fileID: 2100000, guid: 539b631da7884ac42a7ab5fc62ecb5da, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _DISABLE_SSR_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentBackface
+  - MOTIONVECTORS
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - RayTracingPrepass
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - Boolean_15cb3704bf74416788bc2d112a6ac759: 1
+    - Vector1_47b5cb2f7ef54b9390f26067348bfde2: 0.5
+    - Vector1_56ebcaf99d2a4553982aef7074c6b088: 1
+    m_Colors:
+    - Color_1: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 0}
+    - Color_1d2e51f2e41f4b9aa299c21b9e01bce9: {r: 1, g: 0, b: 0, a: 0}
+    - Color_af7d49c74ee94c3da55c0b443056f361: {r: 0.1254902, g: 0.7058824, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &5173713072283984709
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
