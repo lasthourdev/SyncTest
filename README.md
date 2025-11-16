@@ -37,14 +37,13 @@ A hyper-casual endless runner featuring:
 
 ### Gameplay Video
 
-[Watch Gameplay Video]([https://drive.google.com/file/d/13lM30ScLFMGqO5i_fNPlDrfGmOgNiEfL/view?usp=sharing](https://drive.google.com/file/d/1m1X6F-QIcFoId4sm96hBuFRHWcRagAa-/view?usp=sharing))
+Watch Gameplay Video - https://drive.google.com/file/d/1m1X6F-QIcFoId4sm96hBuFRHWcRagAa-/view?usp=sharing
 
 ***
 
 ### APK Download
 
-[Download Android APK]([https://drive.google.com/file/d/1Phlt-qqY1J9XwHUSEuUS5eZt_S9oJ-bB/view?usp=sharing](https://drive.google.com/file/d/1xUlJE0pTC53GToibhswn9aplsiqIHQM3/view?usp=sharing))
-
+Download Android APK - [https://drive.google.com/file/d/1m1X6F-QIcFoId4sm96hBuFRHWcRagAa-/view?usp=sharing](https://drive.google.com/file/d/1xUlJE0pTC53GToibhswn9aplsiqIHQM3/view?usp=sharing)
 ***
 
 
