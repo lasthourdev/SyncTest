@@ -82,6 +82,8 @@ namespace milan.Core
 
             GameEvents.TriggerObstacleHit(transform.position);
             player.NotifyObstacleHit(_instanceID);
+
+              if (player._playerSide == PlayerSide.Left) return;
             gameManager.LoseLife();
 
             gameObject.SetActive(false);

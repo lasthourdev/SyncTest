@@ -35,18 +35,21 @@ namespace milan.Core
 
             if (_isGhost)
             {
-                GetComponent<Collider>().isTrigger = true;
+                //GetComponent<Collider>().isTrigger = true;
             }
             else
             {
                 _rigidbody.isKinematic = false;
-                Transform collectiblePE = transform.Find("collectiblePE");
-                if (collectiblePE != null)
+              
+               
+            }
+            Transform collectiblePE = transform.Find("collectiblePE");
+
+             if (collectiblePE != null)
                     onColliedCollectible = collectiblePE.GetComponent<ParticleSystem>();
                 Transform obstaclePE = transform.Find("obstaclePE");
                 if (obstaclePE != null)
                     onColliedObstacle = obstaclePE.GetComponent<ParticleSystem>();
-            }
 
             _sideOffset = _playerSide == PlayerSide.Right ? GameConstants.RIGHT_SIDE_OFFSET : GameConstants.LEFT_SIDE_OFFSET;
             _targetX = GetLaneX(_currentLane);
@@ -305,7 +308,7 @@ namespace milan.Core
 
         private void OnCollisionEnter(Collision collision)
         {
-            if (_isGhost) return;
+           
 
             if (collision.gameObject.TryGetComponent<Collectible>(out var collectible))
             {

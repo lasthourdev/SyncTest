@@ -44,10 +44,12 @@ namespace milan.Core
         public void OnPlayerCollect(PlayerController player)
         {
             if (_collected) return;
-            if (player._playerSide == PlayerSide.Left) return;
+         
             _collected = true;
             GameEvents.TriggerOrbCollected(transform.position);
             player.NotifyOrbCollected(_instanceID);
+
+            if (player._playerSide == PlayerSide.Left) return;
             gameManager.AddScore();
             gameObject.SetActive(false);
         }
